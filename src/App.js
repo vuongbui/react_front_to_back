@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Contacts from './components/contacts/Contacts';
 import { Provider } from './context';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch } from 'react-router-dom';
 import Header from './components/layout/Header';
 import About from './components/pages/About';
 
